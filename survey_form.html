@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./css/survey_form.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+     <main>
+        <div class="info">
+            <h1 id="title">Developer survey</h1>
+            <p id="description"><i>Discipline is part of success</i></p>   
+        </div>
+         <div class="form">
+              <form action="#" id="survey-form">
+                <div class="input">
+                     <label id="name-label" for="name">Your Name</label><br>
+                     <input type="text" id="name" name="name" placeholder="write your name" required>
+                </div>
+                <div class="input">
+                    <label id="email-label" for="email">Your Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="write your Email" required >
+               </div>
+               <div class="input">
+                <label id="number-label" for="number">Your Age</label><br>
+                <input type="number" id="number" name="number" min="1" max="100" placeholder="select your age" required >
+               </div>
+
+                   <p id="description"></p>
+                   <select name="languaje" id="dropdown">
+                       <option disabled selected>Select you languaje favorite</option>
+                       <option value="c++">C++</option>
+                       <option value="c#">C#</option>
+                       <option value="java">Java</option>
+                       <option value="go">Go</option>
+                       <option value="python">Python</option>
+                       <option value="ruby">Ruby</option>
+                   </select>
+
+
+               
+               <div class="opcion-multiple">
+
+               <div class="radios">
+                <p class="" id="description">What operating system have you used to develop software?</p>
+                
+                <input type="radio" id="windows" name="platform" value="windows">
+                <label for="windows">Windows</label> <br>
+
+                <input type="radio" id="mac" name="platform" value="mac">
+                <label for="mac">Mac OS</label> <br>
+
+                <input type="radio" id="linux" name="platform" value="linux">
+                <label for="linux">Linux</label>  <br>       
+         </div>   
+
+
+         <div class="checkbox">
+             <p class="" id="description">Why do you like to program?</p>
+             
+             <input type="checkbox" id="fun" name="fun" value="fun">
+             <label for="fun">Fun</label><br>
+
+             <input type="checkbox" id="salary" name="salary" value="good-salary">
+             <label for="salary">Good Salary</label><br>
+
+             <input type="checkbox" id="social-status" name="social-status" value="social-status">
+             <label for="social-status">Social Status</label> <br>  
+             
+             <input type="checkbox" id="meet-people" name="meet-people" value="meet-people">
+             <label for="meet-people">Meet People</label> <br>
+
+             <input type="checkbox" id="for-food" name="for-food" value="for-food">
+             <label for="for-food">For food!!</label> <br> 
+         </div>  
+               </div>
+
+
+         <div class="text-area">
+            <label for="opinion">Why do you like programming software?</label><br>
+            <textarea id="opinion" name="opinion" rows="10" cols="50" required> </textarea>
+         </div>
+
+         <div class="submit-button">
+             <input type="submit" id="submit" value="Send">
+         </div>
+
+              </form>             
+         </div>
+     </main>
+
+          
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+</html>

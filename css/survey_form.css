@@ -1,0 +1,141 @@
+
+body{
+    font-family: 'MuseoModerno', cursive;
+    height:100vh; 
+    background-image:url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+    background-size:cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed
+}
+
+main{
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgba(3, 32, 15, 0.8);
+    padding: 20px; 
+    box-shadow: 0 13px 27px -5px rgba(0, 0, 0, 0.25),0 8px 16px -8px;
+   border-radius: 15px;
+}
+#description{
+    width: 100%;
+    font-weight: 700;
+    font-size: 1.1em;
+    color:#fff;
+    text-align: center;
+}
+
+main .info h1{
+    font-weight: 300;
+    text-align: center;
+    color:#fff;
+}
+
+main form{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+main form .input{
+    width: 90%;
+    margin: 10px auto;
+}
+
+/*Inputs*/
+
+main form label{
+    font-size: 1.2em;
+    margin: 0px 10px 0px 3px;
+    color:#fff;
+}
+
+main form .input input[type="text"],input[type="number"],input[type="email"],select{
+   width: 100%;
+   font-size: 1.2em;
+   margin: 3px 0px 3px 0px;
+   padding: 4px;
+   border-radius: 5px;
+   font-family: 'MuseoModerno', cursive;
+}
+
+main form .opcion-multiple{
+    width: 100%;
+    padding: 4px 0px 30px 0px;
+    margin: 20px 0px 20px 0px; 
+    box-sizing: border-box;
+    box-shadow: 1px 2px 4px black;
+    text-align: center;
+    /*display*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main form .opcion-multiple .radios{
+    width: 50%;
+} 
+
+main form .opcion-multiple .checkbox{
+    width: 50%;
+} 
+
+
+main form .text-area{
+    width: 90%; 
+    margin: 0px auto;
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+main form .text-area label{
+    width: 100%;
+    text-align: center;
+    margin: 10px auto 10px auto;
+}
+
+main form .text-area textarea{
+    width: 100%;
+    margin-top: 5px;
+   padding: 6px;
+   font-size: 1.2em;
+   border-radius: 10px;
+   
+}
+
+main form .submit-button{
+    width: 100%;
+    margin-top: 10px;
+   padding: 4px;
+   text-align: center;
+}
+
+main form input[type="submit"]{
+   background-color:#08D438;
+   color:#fff;
+   font-weight: 700;
+   font-size: 1.23em;
+  width: 50%;
+  padding: 0.75rem;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+
+main form input[type="submit"]:hover{
+    background-color:#088024;
+}
+@media screen and (max-width:800px){main{width: 75%;padding: 10px;}
+   main form .opcion-multiple .radios{width: 50%;} }
+
+@media screen and (max-width:600px){
+    main{width: 95%;padding: 10px;}
+     main form .opcion-multiple .radios{width: 80%;} }
+
+
+

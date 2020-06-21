@@ -1,0 +1,73 @@
+
+#facebook{
+    color: rgb(50, 89, 197);
+}
+
+/**/
+#main{
+    width: 75%;
+    margin: 20px auto;
+    background-color: aliceblue;
+    padding: 20px; 
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,0.25),0 8px 16px -8px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#main #title{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#main #title h1{
+    font-weight: 300;
+    font-size: 2.3em;
+}
+#main #title p{
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+#main #img-div{
+    width: 85%;
+    margin: 5px auto;
+    padding: 10px;
+}
+#main #img-div img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 2px -5px rgba(50,50,93,0.25),0 8px 16px -8px;
+    
+}
+#main #img-div #img-caption,#more-information{
+    padding: 2px;
+    font-weight: 300;
+    font-size: 1.0em;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#main #tribute-info{
+    width: 55%;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+
+@media screen and (max-width:1200px){
+
+    #main #tribute-info{
+        width: 95%;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
